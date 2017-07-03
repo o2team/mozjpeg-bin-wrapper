@@ -1,0 +1,38 @@
+{
+  "name": "mozjpeg-bin-wrapper",
+  "version": "0.0.1",
+  "description": "Simply mozjpeg wrapper",
+  "license": "MIT",
+  "repository": "o2team/mozjpeg-bin-wrapper",
+  "author": {
+    "name": "luckyadam",
+    "email": "weitaozsh@gmail.com",
+    "url": "github.com/luckyadam"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "node lib/install.js"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "imagemin",
+    "jpeg",
+    "jpg",
+    "img",
+    "image",
+    "compress",
+    "minify",
+    "mozjpeg",
+    "optimize"
+  ],
+  "dependencies": {
+    "bin-build": "^2.2.0",
+    "bin-wrapper": "^3.0.2",
+    "logalot": "^2.0.0"
+  }
+}
